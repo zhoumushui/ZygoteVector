@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ZygoteVector</string>
+    <string name="app_has_exception">程序出现异常</string>
 </resources>
