@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         GridView gridView = (GridView) findViewById(R.id.gridView);
 
         arrayListVector = new ArrayList<>();
-        Integer[] integersVector = getVetorDrawableId();
+        Integer[] integersVector = getVectorDrawableId();
         for (int i = 0; i < integersVector.length; i++) {
             arrayListVector.add(integersVector[i]);
         }
@@ -105,10 +105,59 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private Integer[] getVetorDrawableId() {
+    private Integer[] getVectorDrawableId() {
         return new Integer[]{
                 R.drawable.ic_accessibility_new,
-                R.drawable.ic_accessibility_new_132dp
+                R.drawable.ic_accessibility_new_132dp,
+                R.drawable.ic_access_time,
+                R.drawable.ic_access_time_132dp,
+                R.drawable.ic_adb,
+                R.drawable.ic_adb_132dp,
+                R.drawable.ic_add,
+                R.drawable.ic_arrow_forward,
+                R.drawable.ic_avatar_default,
+                R.drawable.ic_bluetooth,
+                R.drawable.ic_bluetooth_searching_128dp,
+                R.drawable.ic_cast,
+                R.drawable.ic_chevron_end,
+                R.drawable.ic_delete_132dp,
+                R.drawable.ic_error_132dp,
+                R.drawable.ic_games,
+                R.drawable.ic_headset,
+                R.drawable.ic_headset_mic,
+                R.drawable.ic_home,
+                R.drawable.ic_info_outline,
+                R.drawable.ic_input,
+                R.drawable.ic_input_132dp,
+                R.drawable.ic_keyboard,
+                R.drawable.ic_language,
+                R.drawable.ic_list_sync_anim,
+                R.drawable.ic_location_on,
+                R.drawable.ic_lock,
+                R.drawable.ic_mic,
+                R.drawable.ic_mouse,
+                R.drawable.ic_person,
+                R.drawable.ic_search,
+                R.drawable.ic_settings_backup_restore_132dp,
+                R.drawable.ic_settings_system_daydream,
+                R.drawable.ic_storage,
+                R.drawable.ic_storage_132dp,
+                R.drawable.ic_sync,
+                R.drawable.ic_sync_problem,
+                R.drawable.ic_timeline,
+                R.drawable.ic_volume_off,
+                R.drawable.ic_volume_up,
+                R.drawable.ic_warning_132dp,
+                R.drawable.ic_wifi_add,
+                R.drawable.ic_wifi_signal_0,
+                R.drawable.ic_wifi_signal_1,
+                R.drawable.ic_wifi_signal_2,
+                R.drawable.ic_wifi_signal_3,
+                R.drawable.ic_wifi_signal_4,
+                R.drawable.ic_wifi_signal_4_white,
+                R.drawable.ic_wifi_signal_4_white_132dp,
+                R.drawable.ic_wifi_signal_lock,
+                R.drawable.setup_wps
         };
     }
 }
